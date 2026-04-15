@@ -21,7 +21,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="absolute top-6 left-6 lg:top-25 lg:-left-10 lg:right-auto bg-white p-4 lg:py-6  rounded-xl shadow-2xl w-36 h-32 md:w-40 md:h-40   lg:w-64 lg:h-64  "
+            className="absolute top-6 left-6 lg:top-35 lg:-left-10 lg:right-auto bg-white p-4 lg:py-6  rounded-xl shadow-2xl w-36 h-32 md:w-40 md:h-40   lg:w-64 lg:h-64  "
           >
 
             <div className="flex items-center gap-3 md:mb-2 lg:mb-4">

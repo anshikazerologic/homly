@@ -79,7 +79,7 @@ export default function PropertySection() {
       
     
 
-      <div className=" mx-auto px-4 lg:px-16 2xl:px-96 jakarta_medium py-12 md:py-20">
+      <div className=" mx-auto px-4 lg:px-20 2xl:px-96 jakarta_medium py-12 md:py-20">
        
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl md:text-3xl lg:text-4xl jakarta_bold mb-4">Based On Your Location</h2>
