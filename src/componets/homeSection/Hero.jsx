@@ -51,14 +51,14 @@ export default function Hero() {
               “ I loved how smooth the move was, and finally got the house we wanted.”
             </p>
 
-            <div className="border-t md:pt-2  lg:pt-6 flex justify-between text-[6px] lg:text-xs">
+            <div className="border-t  md:pt-2  lg:pt-6  flex justify-between text-[6px] lg:text-xs">
               <div>
                 <p className="font-bold text-base lg:text-lg">13L</p>
-                <span className="text-gray-500">Saved up to</span>
+                <span className="text-gray-500 pb-2">Saved up to</span>
               </div>
               <div>
                 <p className="font-bold text-base lg:text-lg">-24 hrs</p>
-                <span className="text-gray-500">Process time</span>
+                <span className="text-gray-500 pb-2">Process time</span>
               </div>
             </div>
 
