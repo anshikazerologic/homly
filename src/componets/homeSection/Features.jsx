@@ -31,7 +31,7 @@ const features = [
 export default function Features() {
   return (
     <section className="min-h-screen bg-white selection:bg-indigo-100 selection:text-indigo-900">
-      <div className=" mx-auto px-4 sm:px-6 md:px-20 jakarta_medium 2xl:px-96 py-12 lg:py-24">
+      <div className=" mx-auto px-4 md:px-15 lg:px-20 2xl:px-96 jakarta_medium  py-12 lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           
          

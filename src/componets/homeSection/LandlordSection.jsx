@@ -3,7 +3,7 @@
 export default function LandlordSection() {
   return (
     <section className="py-24 bg-white">
-      <div className=" mx-auto px-4 sm:px-6 lg:px-8 2xl:px-96 jakarta_medium text-center">
+      <div className=" mx-auto px-4 md:px-15 lg:px-20 2xl:px-96 jakarta_medium text-center">
         <div
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}

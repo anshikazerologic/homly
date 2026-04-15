@@ -79,7 +79,7 @@ export default function PropertySection() {
       
     
 
-      <div className=" mx-auto px-4 lg:px-20 2xl:px-96 jakarta_medium py-12 md:py-20">
+      <div className=" mx-auto px-4 md:px-15 lg:px-20 2xl:px-96 jakarta_medium py-12 md:py-20">
        
         <div className="text-center mb-10 md:mb-16">
           <h2 className="text-2xl md:text-3xl lg:text-4xl jakarta_bold mb-4">Based On Your Location</h2>
@@ -128,7 +128,7 @@ export default function PropertySection() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="min-w-[85%] sm:min-w-0 snap-center bg-white rounded-4xl overflow-hidden  transition-all duration-500 group"
+              className="min-w-[85%] sm:min-w-0 snap-center bg-white rounded-2xl overflow-hidden  transition-all duration-500 group"
             >
               
               <div className="relative aspect-4/2 overflow-hidden">

@@ -41,7 +41,7 @@ export default function BenefitSection() {
   return (
     <>
       
-      <section className="min-h-screen bg-[#100A55] text-white jakarta_medium py-16 px-4 sm:px-8 lg:px-20 2xl:px-96 flex flex-col justify-center overflow-hidden">
+      <section className="min-h-screen bg-[#100A55] text-white jakarta_medium py-16 px-4 md:px-15 lg:px-20 2xl:px-96 flex flex-col justify-center overflow-hidden">
         <div className=" mx-auto w-full">
           
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16  items-start mb-16 lg:mb-24">
@@ -80,7 +80,7 @@ export default function BenefitSection() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
-                  className={` md:w-80  sm:shrink-0 lg:w-full sm:snap-center p-8 sm:p-10 rounded-[40px] ${benefit.bgColor} ${benefit.textColor} flex flex-col min-h-72  shadow-2xl`}
+                  className={` md:w-80  sm:shrink-0 lg:w-full sm:snap-center p-8 sm:p-10 rounded-2xl ${benefit.bgColor} ${benefit.textColor} flex flex-col min-h-72  shadow-2xl`}
                 >
                   <div className={`w-14 h-14 rounded-full ${benefit.iconBg} flex items-center justify-center mb-10`}>
                     <benefit.icon className={benefit.iconColor} size={28} />
