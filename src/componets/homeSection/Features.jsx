@@ -63,7 +63,7 @@ export default function Features() {
                 transition={{ duration: 0.8, delay: 0.2 }}
                 src="/assets/featuresimg.png"
                 alt="Modern House Illustration"
-                className="w-full  shadow-2xl "
+                className="w-full   "
                 referrerPolicy="no-referrer"
               />
             </div>
