@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'PlusJakartaSansBold';
+  src: url('/font/PlusJakartaSans-Bold.ttf') ;
+  font-style: bold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PlusJakartaSansMedium';
+  src: url('/font/PlusJakartaSans-Medium.ttf') ;
+  font-style: bold;
+  font-display: swap;
+}
+
+
+.jakarta_bold {
+  font-family: 'PlusJakartaSansBold', sans-serif;
+}
+.jakarta_medium {
+  font-family: 'PlusJakartaSansMedium', sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
+}
