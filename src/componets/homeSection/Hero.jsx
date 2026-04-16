@@ -90,7 +90,7 @@ export default function Hero() {
         </div>
 
 
-        <div className="flex items-center  px-4 md:px-15 lg:px-20 2xl:px-96   order-2 lg:order-1">
+        <div className="flex items-center  px-4 md:px-15 lg:px-20 2xl:px-50   order-2 lg:order-1">
           <div className="max-w-195 z-20 py-5   lg:absolute  flex flex-col gap-12">
 
 

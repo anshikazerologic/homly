@@ -41,7 +41,7 @@ export default function BenefitSection() {
   return (
     <>
       
-      <section className="min-h-screen bg-[#100A55] text-white jakarta_medium py-16 px-4 md:px-15 lg:px-20 2xl:px-96 flex flex-col justify-center overflow-hidden">
+      <section className="min-h-screen bg-[#100A55] text-white jakarta_medium py-16 px-4 md:px-15 lg:px-20 2xl:px-50 flex flex-col justify-center overflow-hidden">
         <div className=" mx-auto w-full">
           
           <div className="grid lg:grid-cols-2 gap-8 lg:gap-16  items-start mb-16 lg:mb-24">
