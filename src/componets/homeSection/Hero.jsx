@@ -21,7 +21,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: 20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
-            className="absolute top-6 left-6 lg:top-35 lg:-left-10 lg:right-auto  bg-white p-4 lg:py-6  rounded-xl shadow-2xl  w-40 md:h-40   lg:w-64 lg:h-64  "
+            className="absolute top-6 left-6 lg:top-35 lg:-left-10 lg:right-auto 2xl:top-45  bg-white p-4 lg:py-6  rounded-xl shadow-2xl  w-40 md:h-40   lg:w-64 lg:h-64  "
           >
 
             <div className="flex items-center gap-3 md:mb-2 lg:mb-4">
@@ -90,11 +90,11 @@ export default function Hero() {
         </div>
 
 
-        <div className="flex items-center  px-4 md:px-15 lg:px-20 2xl:px-50   order-2 lg:order-1">
+        <div className="flex items-center  px-4 md:px-15 lg:px-20 2xl:px-40 3xl:px-60  order-2 lg:order-1">
           <div className="max-w-195 z-20 py-5   lg:absolute  flex flex-col gap-12">
 
 
-            <div className="flex flex-col gap-8">
+            <div className="flex flex-col gap-8"> 
               <h1
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

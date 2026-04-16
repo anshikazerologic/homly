@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --breakpoint-3xl: 1800px;
+}
+
 @font-face {
   font-family: 'PlusJakartaSansBold';
   src: url('/font/PlusJakartaSans-Bold.ttf') ;
